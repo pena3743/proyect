@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+
+background-color: black;
+background-image: ;
+
+}
+
+
+.img__rich{
+width: 300px;
+margin-left: 45px;
+
+}
+
+
+.box__header{
+display: flex;
+justify-content: center;
+
+
+color: white;
+
+}
+
+.box__lista {
+display: flex;
+width: 100%;
+list-style-type: none;
+gap: 50px;
+position: absolute;
+top: 220px;
+
+
+
+
+}
