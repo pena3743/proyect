@@ -23,7 +23,7 @@ margin-left: 45px;
 .box__header{
 display: flex;
 justify-content: center;
-
+align-content: center;
 
 color: white;
 
