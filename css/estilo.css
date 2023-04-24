@@ -21,7 +21,7 @@ body {
     font-size: 1.5rem;
     gap: 100px;
     margin-right: 100px;
-
+    
 }
 
 .logo {
@@ -35,7 +35,7 @@ body {
 .box__links,
 .box__links-second {
     display: flex;
-
+    
     gap: 40px;
     list-style-type: none;
     color: white;
@@ -287,7 +287,7 @@ height: 700px;
 }
 .cajax1{
 overflow: hidden;
-grid-row: 
+
 
 
 }
@@ -309,64 +309,101 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-@media (max-width: 700px) {
+
+
+    
+    
+
+   
+
+
+
+
+@media  (max-width: 700px) {
+    
+
+
+body{
+background-image: none;
+background-color: black;
+
+}
+
+
+.box__header{
+
+max-width: 100%;
+justify-content: flex-start;
+margin: 0 auto;
+}
+.logo{
+
+width: 400px;
+
+}
+
+
+
+}
+
+
+
+
+@media (max-width: 400px) {
     
 
 
 
-
-
-.box__header{
-max-width: 100%;
-justify-content: flex-start;
-padding: 30px;
-
-
-}
-
-.logo{;
-width: 400px;
-
-
-
-}
-
-.box__links{
-max-width: 20%;
-justify-content: 
-
-}
-
-
-
-.box__titulos{
-max-width: 100%;
-margin-left: 110px;
-
-}
-
-
-.box__grid{
-width: 1000px;
-
-display: flex;
-flex-direction: column;
-padding: 20px;
-justify-content:;
-
-
-
-
-
-
-}
-
-
-.caja{
+    .box__header{
+        max-width: 100%;
+        
+        margin: 0 auto;
+        
+        }
+        
+        .logo{
+        
+        
+        
+        }
+        
+        .box__links{
+        max-width: 100%;
+        
+        
+        }
+        
+        
+        
+        .box__titulos{
+        max-width: 100%;
+        margin-left: 110px;
+        
+        
+        }
+        
+        
+        .box__grid{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        }
 
 
 
-}
+
+
+
 
 
 
