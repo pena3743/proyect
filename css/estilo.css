@@ -1,59 +1,372 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
-body{
+body {
 
-background-color: black;
-background-image: ;
-
-}
-
-
-.box__parrafo{
-display: block;
-width: 50%;
-height: 25px;
-text-align: center;
-
-position: absolute;
-margin-top: 20px;
-margin-left: 40px;
-border-radius: 20px;
-background-color: white;
-color: black;
-
-
-}
-
-.img__rich{
-width: 300px;
-margin-left: 45px;
+    background-color: gray;
+    background-image: url(../img/wallpaperbetter.com_1920x1080.jpg);
+    background-attachment: fixed;
 
 }
 
 
-.box__header{
-display: flex;
+.box__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    gap: 100px;
+    margin-right: 100px;
+
+}
+
+.logo {
+
+    width: 400px;
+
+
+}
+
+
+.box__links,
+.box__links-second {
+    display: flex;
+
+    gap: 40px;
+    list-style-type: none;
+    color: white;
+
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    
+    transition: 3s ;
+    color: chartreuse;
+
+}
+
+
+
+
+
+.box__titulos {
+    display: block;
+    width: 100%;
+
+    color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 300px;
+
+
+
+
+
+
+}
+
+
+.titulo1 {
+    font-size: 100px;
+    color: chartreuse;
+
+}
+
+
+.box__video {
+    display: flex;
+    max-width: 100%;
+
+    border: 2px solid greenyellow;
+
+
+
+}
+
+
+
+.box__grid {
+
+
+    padding: 50px;
+    display: grid;
+    max-width: 90%;
+    padding: 50px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+   background-color: white;
+    gap: 10px;
+    
+}
+
+
+.caja {
+    overflow: hidden;
+    border: 1px solid blac;
+
+
+}
+
+.grid1 {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+
+}
+
+.img-1 {
+    
+
+}
+
+
+.grid2 {
+
+    grid-row: 1/2;
+
+}
+
+
+
+.img-2 {
+
+    max-width: 100%;
+    
+
+}
+
+.img-2:hover {
+    transition: 2s ;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    
+}
+
+.parrafo5 {
+    display: none;
+    position: absolute;
+}
+
+.img-3 {
+
+    max-width: 105%;
+
+
+}
+
+.img-3:hover {
+transition: 2s;
+    position: absolute;
+    
+    border-radius: 50%;
+    box-shadow: 0 0 20px black
+}
+
+.grid4 {
+
+    grid-column: 2/4;
+    max-width: 100%;
+
+
+
+}
+
+.img-4 {
+
+    width: 100%;
+    
+
+}
+.titulorich{
+display:  block;
 width: 100%;
-justify-content: center;
-margin-right: 100px;
+text-align: center;
+margin-top: 200px;
+font-size: 3rem;
 color: white;
 
 
 }
 
-.box__lista {
-display: flex;
-width: 100%;
-list-style-type: none;
-gap: 50px;
-position: absolute;
-top: 220px;
+.aw2{
 
+color: greenyellow;
+
+}
+
+.titulorich span:hover{
+
+
+
+
+
+
+}
+
+.section2{
+display: flex;
+max-width: 100%;
+align-items: center;
+justify-content: space-between;
+margin-top: 200px;
+padding: 60px;
+background-color: white;
+
+}
+
+.box__section{
+
+
+
+}
+
+
+.img__section{
+
+width: 500px;
+
+
+}
+
+.clase3{
+width: 480px;
+
+
+}
+
+
+
+
+/* CSS UBICACION*/
+
+
+
+
+
+.ubi2{
+    overflow: hidden;
+display:grid;
+max-width: 100%;
+padding: 40px;
+color: white;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 400px 400px;
+gap: 20px;
+
+}
+
+
+.caja1{
+
+overflow: hidden;
+padding: 70px;
+
+
+}
+iframe{
+width: 100%;
+height: 700px;
+
+}
+.cajax1{
+overflow: hidden;
+grid-row: 
+
+
+}
+
+.cajax2{
+
+grid-row: 1/4;
+text-align: justify;
+padding: 20px;
+
+
+}
+
+.cajax3{
+display:block;
+text-align: justify;
+margin: 0 auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+@media (max-width: 700px) {
+    
+
+
+
+
+
+.box__header{
+max-width: 100%;
+justify-content: flex-start;
+padding: 30px;
+
+
+}
+
+.logo{;
+width: 400px;
+
+
+
+}
+
+.box__links{
+max-width: 20%;
+justify-content: 
+
+}
+
+
+
+.box__titulos{
+max-width: 100%;
+margin-left: 110px;
+
+}
+
+
+.box__grid{
+width: 1000px;
+
+display: flex;
+flex-direction: column;
+padding: 20px;
+justify-content:;
+
+
+
+
+
+
+}
+
+
+.caja{
+
+
+
+}
 
 
 
