@@ -326,7 +326,7 @@ iframe {
 
     body{
         border: 1px solid white;
-        width: 1230px;
+        
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -339,7 +339,7 @@ iframe {
     }
     .parte1{
         display: block;
-       width:750px; 
+       
 
 
     }
