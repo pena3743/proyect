@@ -20,14 +20,16 @@ body {
     justify-content: space-around;
     font-size: 1.5rem;
     gap: 100px;
-    margin-right: 100px; 
+    margin-right: 100px;
+    
 
 }
 
 
 .media {
- display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+    
 }
 
 .logo {
@@ -38,8 +40,8 @@ align-items: center;
 }
 
 
-.box__links,
-.box__links-second {
+.box__links {
+
     display: flex;
 
     gap: 40px;
@@ -316,24 +318,26 @@ iframe {
 @media (max-width:400px) {
 
 
-.box__header{
-display: block;
-text-align: center
-
-
-    }
-    
-.media{
-    display: flex;
-max-width: 100%;
-
-
+    .box__header {
+        display: flex;
+       
 
 
     }
 
+    .media {
+
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        
 
 
+    }
 
+    .box__links  {
+        
+        
+    }
 
-}
+  }
