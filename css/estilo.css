@@ -325,8 +325,10 @@ iframe {
 
 
     body{
-        border: 1px solid white;
+
         
+        
+        border: none;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -338,8 +340,9 @@ iframe {
 
     }
     .parte1{
+        
         display: block;
-       
+        width: 1000px;
 
 
     }
@@ -347,6 +350,7 @@ iframe {
     .box__header {
         
         display: flex;
+       
        justify-content: flex-end;
 
 
@@ -367,4 +371,4 @@ iframe {
         
     }
 
-  }
+  } 
